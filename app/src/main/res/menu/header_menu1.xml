@@ -1,0 +1,14 @@
+<!-- header_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_increase_text_size"
+        android:title="Increase Text Size"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_decrease_text_size"
+        android:title="Decrease Text Size"
+        android:orderInCategory="101"
+        app:showAsAction="never" />
+</menu>

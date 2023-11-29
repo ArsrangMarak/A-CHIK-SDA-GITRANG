@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:background="@drawable/bg_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+    <!-- Header Section -->
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Main Content Container -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingBottom="72dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp">
+
+            <!-- App Icon and Title -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/app_icon"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/a_chik_sda_gitrang"
+                    android:gravity="center"
+                    android:fontFamily="@font/sans"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:id="@+id/versionTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:fontFamily="@font/sans"
+                    android:text="@string/version_1_0"
+                    android:textColor="#578A8A"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <!-- App Theme Section -->
+
+            <!-- Support and Donation Section -->
+            <!-- ... (previous code) ... -->
+
+            <!-- Support and Care Section -->
+
+
+            <!-- ... (Continue with the rest of the layout) ... -->
+
+            <!-- Developer Section -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/bg_white"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp">
+
+                <TextView
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#578A8A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:text="The Developer"
+                    android:fontFamily="@font/sans"
+                    android:textAlignment="viewStart" />
+
+
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/dp2"
+                    android:contentDescription="The Developer"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#578A8A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ARSRANG MARAK"
+                    android:fontFamily="@font/sans"
+                    android:layout_gravity="center_horizontal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/ic_gmail"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:background="@drawable/bg_ripple_effect"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_gmail" />
+
+                    <ImageButton
+                        android:id="@+id/ic_fb"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="16dp"
+                        android:background="@drawable/bg_ripple_effect"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_fb" />
+
+                    <ImageButton
+                        android:id="@+id/ic_insta"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="16dp"
+                        android:background="@drawable/bg_ripple_effect"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_insta" />
+
+                </LinearLayout>
+
+                <View
+                    android:orientation="horizontal"
+                    android:background="#D9d9d9"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="#578A8A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/make_a_joyful_noise_unto_the_lord_all_ye_lands_nserve_the_lord_with_gladness_come_before_his_presence_with_singing_n_npsalms_100_1_2"
+                    android:fontFamily="@font/sans"
+                    android:textAlignment="center" />
+
+                <View
+                    android:orientation="horizontal"
+                    android:background="#D9d9d9"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/should_you_find_any_issues_problems_with_this_app_esp_typo_errors_feel_free_to_contact_the_developer_or_report_it_at_our_facebook_page_nmay_you_enjoy_this_app"
+                    android:fontFamily="@font/sans"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <!-- ... (Content after the Developer section) ... -->
+
+
+
+
+            <!-- (Content removed for brevity) -->
+
+            <!-- Developer Section -->
+            <!-- (Content removed for brevity) -->
+
+            <!-- Developer Logo -->
+            <ImageView
+                android:layout_width="119dp"
+                android:layout_height="57dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="120dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/l" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<!-- actionbar_back_icon.xml -->
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary">
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:paddingStart="8dp"
+        android:paddingEnd="16dp"
+        android:contentDescription="Back"/>
+
+</androidx.appcompat.widget.Toolbar>

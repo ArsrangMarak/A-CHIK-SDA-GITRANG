@@ -1,0 +1,4 @@
+<!-- res/drawable/button_another_language.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/another_language_icon" />
+</layer-list>

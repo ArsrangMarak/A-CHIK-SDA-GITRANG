@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name"><font color="#FFFFFF">A∙CHIK SDA GITRANG</font></string>
+
+
+    <string name="mode_enabled">Light mode enabled</string>
+
+    <string name="strDummy">Switching between theme modes in a real world Application</string>
+
+
+    <string name="label_select_theme">Select theme</string>
+    <string name="label_dark_mode">Dark mode</string>
+    <string name="label_light_mode">Light mode</string>
+    <string name="label_follow_system">Follow system</string>
+    <string name="enter_songs_number">Enter Songs Number</string>
+    <string name="back_button" />
+    <string name="achik_sda_gitrang" />
+    <string name="a_chik_sda_gitrang">A∙CHIK SDA GITRANG</string>
+    <string name="version_1_0">version 1.0</string>
+    <string name="support_future_releases_of_this_app">Support Future Releases of this App</string>
+    <string name="this_app_is_completely_free_and_contains_no_advertisements_a_little_assistance_from_you_would_be_greatly_appreciated">This app is completely free and contains no advertisements. A little assistance from you would be greatly appreciated.</string>
+    <string name="sbi">STATE BANK OF INDIA</string>
+    <string name="thank_you_very_much_for_your_generosity_nmay_god_bless_you_even_more">Thank you very much for your generosity.\nMay God bless you even more!</string>
+    <string name="make_a_joyful_noise_unto_the_lord_all_ye_lands_nserve_the_lord_with_gladness_come_before_his_presence_with_singing_n_npsalms_100_1_2">“Make a joyful noise unto the LORD, all ye lands.\nServe the LORD with gladness: come before his presence with singing.”\n\nPSALMS 100 : 1-2</string>
+    <string name="should_you_find_any_issues_problems_with_this_app_esp_typo_errors_feel_free_to_contact_the_developer_or_report_it_at_our_facebook_page_nmay_you_enjoy_this_app">Should you find any issues/problems with this app (esp. typo errors) feel free to contact the developer or report it at our facebook page.\nMAY YOU ENJOY THIS APP!</string>
+
+    <string-array name="themes">
+        <item >@string/label_light_mode</item>
+        <item >@string/label_dark_mode</item>
+        <item >@string/label_follow_system</item>
+    </string-array>
+
+
+</resources>

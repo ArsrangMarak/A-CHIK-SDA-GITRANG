@@ -6,7 +6,7 @@ Enable switching between Dark Mode and Light Mode in Android app. The project sh
 </p>
 
 
-<img src="/previews/g.gif" align="right" width="320"/>
+<img src="/previews/gif.gif" align="right" width="320"/>
 
 
 ### Functionalities

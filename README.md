@@ -2,7 +2,7 @@
 Enable switching between Dark Mode and Light Mode in Android app. The project shows how to implement this in a real-world application by introducing saperation of concern and a userpreference repository.
 
 <p align="center">
-<img src="/previews/ar.png"/>
+<img src="/previews/Screenshot.png"/>
 </p>
 
 

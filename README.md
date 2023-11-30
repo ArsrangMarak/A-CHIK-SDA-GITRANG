@@ -1,5 +1,5 @@
-# DarkMode
-Enable switching between Dark Mode and Light Mode in Android app. The project shows how to implement this in a real-world application by introducing saperation of concern and a userpreference repository.
+# A∙CHIK SDA GITRANG
+
 
 <p align="center">
 <img src="/previews/1.png"/>
